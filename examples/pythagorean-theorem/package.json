@@ -1,0 +1,16 @@
+{
+  "name": "pythagorean-theorem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "git clone https://github.com/fred-wang/mathml.css -b master node_modules/mathml.css",
+    "build": "elm-make Main.elm --output=index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjax": "^2.7.0"
+  }
+}
